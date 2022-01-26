@@ -1,0 +1,35 @@
+body{
+    background-image: radial-gradient(circle at -7.92% 9.44%, #00ffff 0, #00ffff 16.67%, #00e8ff 33.33%, #0cc1ed 50%, #329cc2 66.67%, #3a7c9b 83.33%, #396078 100%);
+    font-family: Bradley Hand, cursive;
+}
+
+header{
+    text-align: center;
+    border: solid;
+    border-color: #eee;
+    border-radius: 15px;
+
+}
+
+h1{
+    text-shadow: 1px 1px 10px rgb(48, 11, 28);
+}
+.tablero{
+    display: inline;
+    margin:0px;
+
+}
+
+.option{
+   
+     margin:0px;
+    padding: 0px;
+    width : 100% 
+
+
+
+}
+
+img{
+    display: inline;
+}
