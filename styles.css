@@ -14,22 +14,57 @@ header{
 h1{
     text-shadow: 1px 1px 10px rgb(48, 11, 28);
 }
-.tablero{
-    display: inline;
-    margin:0px;
+
+.box{
+    display: inline-block;
+    width:100px;
+    height: 100px;
+    margin:30px;
+    padding: 30px;
+    border-style:solid;
+    border-color:#eee;
+    border-width: 8px;
+    border-left: 6px solid #aff;
+    border-radius: 8px;
+    text-align: center;
+
 
 }
 
-.option{
-   
-     margin:0px;
-    padding: 0px;
-    width : 100% 
-
-
-
+p{
+    margin:auto;
+    padding: auto;
+    
 }
 
-img{
-    display: inline;
+.j1{
+    width: 30%;
+    height: 450px;
+}
+.j2{
+    float: right;
+    width: 30%;
+    height: 450px;
+}
+
+
+
+
+
+
+.piedra{
+    
+    background-image:url(/img/piedra.png);
+    background-size: cover;
+    
+}
+
+.papel{
+    background-image: url(/img/papel.png);
+    background-size: cover;
+}
+
+.tijeras{
+    background-image: url(/img/tijeras.png);
+    background-size: cover;
 }
